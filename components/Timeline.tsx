@@ -113,7 +113,7 @@ export default function Timeline({ dayLabel, timezone, matches }: Props) {
         </header>
 
         {toast ? (
-          <div className="sticky top-4 z-10 mt-6">
+          <div className="sticky top-16 z-10 mt-6">
             <div className="rounded-xl border border-black/10 bg-white px-4 py-3 shadow-sm dark:border-white/15 dark:bg-black">
               <div className="text-sm font-medium">{toast.title}</div>
               {toast.detail ? (

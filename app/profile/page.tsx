@@ -1,3 +1,7 @@
+import { authOptions } from '@/auth'
+import { getServerSession } from 'next-auth/next'
+import { redirect } from 'next/navigation'
+
 import bestData from '../data/best.json'
 import matchesData from '../data/matches.json'
 
@@ -40,7 +44,10 @@ function statusClasses(status: BetStatus | string) {
   return 'border-black/10 bg-zinc-50 text-zinc-950 dark:border-white/15 dark:bg-white/5 dark:text-zinc-50'
 }
 
-export default function ProfilePage() {
+export default async function ProfilePage() {
+  const session = await getServerSession(authOptions)
+  if (!session) redirect('/signin')
+
   const bets = (bestData as unknown as { bets: Bet[] }).bets ?? []
   const matches = (matchesData as unknown as { matches: Match[] }).matches ?? []
 
