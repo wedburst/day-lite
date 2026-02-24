@@ -39,9 +39,9 @@ function statusLabel(status: BetStatus | string) {
 
 function statusClasses(status: BetStatus | string) {
   const normalized = statusLabel(status)
-  if (normalized === 'WON') return 'border-black/10 bg-zinc-50 text-zinc-950 dark:border-white/15 dark:bg-white/5 dark:text-zinc-50'
-  if (normalized === 'LOST') return 'border-black/10 bg-zinc-50 text-zinc-950 dark:border-white/15 dark:bg-white/5 dark:text-zinc-50'
-  return 'border-black/10 bg-zinc-50 text-zinc-950 dark:border-white/15 dark:bg-white/5 dark:text-zinc-50'
+  if (normalized === 'WON') return 'border-green-200 bg-green-50 text-green-700 dark:border-green-700 dark:bg-green-900 dark:text-green-200'
+  if (normalized === 'LOST') return 'border-red-200 bg-red-50 text-red-700 dark:border-red-700 dark:bg-red-900 dark:text-red-200'
+  return 'border-yellow-200 bg-yellow-50 text-yellow-700 dark:border-yellow-700 dark:bg-yellow-900 dark:text-yellow-200'
 }
 
 export default async function ProfilePage() {
