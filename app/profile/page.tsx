@@ -1,6 +1,6 @@
-import { authOptions } from '@/auth'
-import { getServerSession } from 'next-auth/next'
-import { redirect } from 'next/navigation'
+"use client";
+
+import React, { useState, useEffect } from 'react';
 
 import bestData from '../data/best.json'
 import matchesData from '../data/matches.json'
@@ -44,7 +44,7 @@ function statusClasses(status: BetStatus | string) {
   return 'border-yellow-200 bg-yellow-50 text-yellow-700 dark:border-yellow-700 dark:bg-yellow-900 dark:text-yellow-200'
 }
 
-export default async function ProfilePage() {
+export default function ProfilePage() {
   const [loading, setLoading] = useState(true);
   const [bets, setBets] = useState<Bet[]>([]);
   const [matches, setMatches] = useState<Match[]>([]);
@@ -56,7 +56,7 @@ export default async function ProfilePage() {
     setMatches((matchesData as unknown as { matches: Match[] }).matches ?? []);
   }, []);
 
-  const matchById = new Map(matches.map((m) => [m.id, m]));
+  const matchById = new Map(matches.map((m: Match) => [m.id, m]));
   const sorted = [...bets].sort((a, b) => new Date(b.placedAt).getTime() - new Date(a.placedAt).getTime());
 
   return (
@@ -114,12 +114,12 @@ export default async function ProfilePage() {
           ) : (
             <div className="flex flex-col gap-3">
               {sorted.map((bet) => {
-                const match = matchById.get(bet.matchId)
+                const match = matchById.get(bet.matchId) as Match | undefined;
                 const teams = match
                   ? `${match.homeTeam.name} vs ${match.awayTeam.name}`
-                  : `Partido: ${bet.matchId}`
-                const selection = pickTo1X2(bet.pick)
-                const status = statusLabel(bet.status)
+                  : `Partido: ${bet.matchId}`;
+                const selection = pickTo1X2(bet.pick);
+                const status = statusLabel(bet.status);
                 return (
                   <article
                     key={bet.id}
@@ -153,7 +153,7 @@ export default async function ProfilePage() {
                       </div>
                     </div>
                   </article>
-                )
+                );
               })}
             </div>
           )}
