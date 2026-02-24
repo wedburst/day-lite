@@ -15,8 +15,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-20 border-b border-black/10 bg-zinc-50/80 backdrop-blur dark:border-white/15 dark:bg-black/60">
       <div className="mx-auto flex h-14 w-full max-w-4xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="text-sm font-semibold tracking-tight">
-          day-lite
+        <Link href="/" className="text-lg font-bold tracking-tight">
+          BetDay Lite
         </Link>
         <Suspense fallback={<span className="ml-4 text-zinc-400 text-sm">Cargando...</span>}>
           <nav className="flex items-center gap-2">
