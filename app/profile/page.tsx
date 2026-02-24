@@ -45,18 +45,19 @@ function statusClasses(status: BetStatus | string) {
 }
 
 export default async function ProfilePage() {
-  const session = await getServerSession(authOptions)
-  if (!session) redirect('/signin')
+  const [loading, setLoading] = useState(true);
+  const [bets, setBets] = useState<Bet[]>([]);
+  const [matches, setMatches] = useState<Match[]>([]);
 
-  const bets = (bestData as unknown as { bets: Bet[] }).bets ?? []
-  const matches = (matchesData as unknown as { matches: Match[] }).matches ?? []
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
+    // Simular fetch de datos (en SSR deberías cargar los datos aquí)
+    setBets((bestData as unknown as { bets: Bet[] }).bets ?? []);
+    setMatches((matchesData as unknown as { matches: Match[] }).matches ?? []);
+  }, []);
 
-  const matchById = new Map(matches.map((m) => [m.id, m]))
-
-  const sorted = [...bets].sort((a, b) => {
-    // placedAt in ISO; string compare works, but Date parse is safer
-    return new Date(b.placedAt).getTime() - new Date(a.placedAt).getTime()
-  })
+  const matchById = new Map(matches.map((m) => [m.id, m]));
+  const sorted = [...bets].sort((a, b) => new Date(b.placedAt).getTime() - new Date(a.placedAt).getTime());
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-black dark:text-zinc-50">
@@ -67,9 +68,46 @@ export default async function ProfilePage() {
             Solo se muestran las apuestas realizadas por el usuario.
           </p>
         </header>
-
         <main className="mt-6">
-          {sorted.length === 0 ? (
+          {loading ? (
+            <div className="flex flex-col gap-6">
+              {[1, 2, 3].map((s) => (
+                <section
+                  key={s}
+                  className="rounded-2xl border border-black/10 bg-white p-4 dark:border-white/15 dark:bg-black animate-pulse"
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="h-4 w-24 rounded bg-zinc-200 dark:bg-zinc-700" />
+                    <div className="h-3 w-12 rounded bg-zinc-100 dark:bg-zinc-800" />
+                  </div>
+                  <div className="mt-4 flex flex-col gap-3">
+                    {[1, 2].map((i) => (
+                      <article
+                        key={i}
+                        className="rounded-xl border border-black/10 p-4 dark:border-white/15 bg-zinc-50 dark:bg-zinc-900"
+                      >
+                        <div className="flex flex-col gap-1">
+                          <div className="h-3 w-20 rounded bg-zinc-200 dark:bg-zinc-700 mb-1" />
+                          <div className="h-5 w-40 rounded bg-zinc-200 dark:bg-zinc-700" />
+                        </div>
+                        <div className="mt-3">
+                          <div className="h-3 w-16 rounded bg-zinc-100 dark:bg-zinc-800 mb-2" />
+                          <div className="grid grid-cols-3 gap-2">
+                            {[1, 2, 3].map((j) => (
+                              <div
+                                key={j}
+                                className="h-10 rounded-xl border border-black/10 bg-zinc-100 dark:border-white/15 dark:bg-zinc-800"
+                              />
+                            ))}
+                          </div>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          ) : sorted.length === 0 ? (
             <div className="rounded-2xl border border-black/10 bg-white p-6 text-sm text-zinc-600 dark:border-white/15 dark:bg-black dark:text-zinc-400">
               Aún no tienes apuestas.
             </div>
@@ -80,10 +118,8 @@ export default async function ProfilePage() {
                 const teams = match
                   ? `${match.homeTeam.name} vs ${match.awayTeam.name}`
                   : `Partido: ${bet.matchId}`
-
                 const selection = pickTo1X2(bet.pick)
                 const status = statusLabel(bet.status)
-
                 return (
                   <article
                     key={bet.id}
@@ -96,12 +132,10 @@ export default async function ProfilePage() {
                           <div className="mt-1 text-xs text-zinc-600 dark:text-zinc-400">{match.league.name}</div>
                         ) : null}
                       </div>
-
                       <div className={`shrink-0 rounded-full border px-3 py-1 text-xs font-medium ${statusClasses(status)}`}>
                         {status}
                       </div>
                     </div>
-
                     <div className="mt-4 grid grid-cols-3 gap-2">
                       <div className="rounded-xl border border-black/10 p-3 text-sm dark:border-white/15">
                         <div className="text-xs text-zinc-600 dark:text-zinc-400">Selección</div>
