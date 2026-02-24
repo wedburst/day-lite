@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import { useSession } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
 
 import bestData from '../data/best.json'
 import matchesData from '../data/matches.json'
@@ -44,20 +46,35 @@ function statusClasses(status: BetStatus | string) {
   return 'border-yellow-200 bg-yellow-50 text-yellow-700 dark:border-yellow-700 dark:bg-yellow-900 dark:text-yellow-200'
 }
 
+
 export default function ProfilePage() {
+  const { data: session, status } = useSession();
+  const router = useRouter();
   const [loading, setLoading] = useState(true);
   const [bets, setBets] = useState<Bet[]>([]);
   const [matches, setMatches] = useState<Match[]>([]);
 
   useEffect(() => {
+    if (status === 'loading') return;
+    if (!session) {
+      router.replace('/signin');
+      return;
+    }
     setTimeout(() => setLoading(false), 1000);
-    // Simular fetch de datos (en SSR deberías cargar los datos aquí)
     setBets((bestData as unknown as { bets: Bet[] }).bets ?? []);
     setMatches((matchesData as unknown as { matches: Match[] }).matches ?? []);
-  }, []);
+  }, [session, status, router]);
 
   const matchById = new Map(matches.map((m: Match) => [m.id, m]));
   const sorted = [...bets].sort((a, b) => new Date(b.placedAt).getTime() - new Date(a.placedAt).getTime());
+
+  if (status === 'loading') {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-zinc-50 dark:bg-black">
+        <span className="text-zinc-400 text-lg">Cargando...</span>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-black dark:text-zinc-50">
@@ -160,5 +177,5 @@ export default function ProfilePage() {
         </main>
       </div>
     </div>
-  )
+  );
 }
