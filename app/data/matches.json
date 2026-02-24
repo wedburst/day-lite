@@ -1,0 +1,1356 @@
+{
+  "date": "2026-02-12",
+  "timezone": "America/Lima",
+  "matches": [
+    {
+      "id": "match_001",
+      "startTime": "2026-02-12T00:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.67,
+          "draw": 4.44,
+          "away": 5.96
+        }
+      }
+    },
+    {
+      "id": "match_002",
+      "startTime": "2026-02-12T00:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "awayTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.63,
+          "draw": 4.34,
+          "away": 5.35
+        }
+      }
+    },
+    {
+      "id": "match_003",
+      "startTime": "2026-02-12T01:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "lei",
+        "name": "Leicester",
+        "shortName": "LEI"
+      },
+      "awayTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.43,
+          "draw": 4.27,
+          "away": 3.05
+        }
+      }
+    },
+    {
+      "id": "match_004",
+      "startTime": "2026-02-12T01:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ars",
+        "name": "Arsenal",
+        "shortName": "ARS"
+      },
+      "awayTeam": {
+        "id": "liv",
+        "name": "Liverpool",
+        "shortName": "LIV"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.41,
+          "draw": 3.97,
+          "away": 1.71
+        }
+      }
+    },
+    {
+      "id": "match_005",
+      "startTime": "2026-02-12T02:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "wol",
+        "name": "Wolves",
+        "shortName": "WOL"
+      },
+      "awayTeam": {
+        "id": "che",
+        "name": "Chelsea",
+        "shortName": "CHE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.99,
+          "draw": 2.96,
+          "away": 4.68
+        }
+      }
+    },
+    {
+      "id": "match_006",
+      "startTime": "2026-02-12T02:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.57,
+          "draw": 3.74,
+          "away": 4.44
+        }
+      }
+    },
+    {
+      "id": "match_007",
+      "startTime": "2026-02-12T03:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "awayTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.19,
+          "draw": 3.13,
+          "away": 1.77
+        }
+      }
+    },
+    {
+      "id": "match_008",
+      "startTime": "2026-02-12T03:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ful",
+        "name": "Fulham",
+        "shortName": "FUL"
+      },
+      "awayTeam": {
+        "id": "lei",
+        "name": "Leicester",
+        "shortName": "LEI"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.19,
+          "draw": 3.21,
+          "away": 5.02
+        }
+      }
+    },
+    {
+      "id": "match_009",
+      "startTime": "2026-02-12T04:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.49,
+          "draw": 2.93,
+          "away": 5.39
+        }
+      }
+    },
+    {
+      "id": "match_010",
+      "startTime": "2026-02-12T04:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "lei",
+        "name": "Leicester",
+        "shortName": "LEI"
+      },
+      "awayTeam": {
+        "id": "ars",
+        "name": "Arsenal",
+        "shortName": "ARS"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.39,
+          "draw": 3.59,
+          "away": 2.51
+        }
+      }
+    },
+    {
+      "id": "match_011",
+      "startTime": "2026-02-12T05:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "mun",
+        "name": "Man United",
+        "shortName": "MUN"
+      },
+      "awayTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.39,
+          "draw": 3.07,
+          "away": 3.46
+        }
+      }
+    },
+    {
+      "id": "match_012",
+      "startTime": "2026-02-12T05:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "awayTeam": {
+        "id": "shu",
+        "name": "Sheffield",
+        "shortName": "SHU"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.4,
+          "draw": 3.03,
+          "away": 2.0
+        }
+      }
+    },
+    {
+      "id": "match_013",
+      "startTime": "2026-02-12T06:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "shu",
+        "name": "Sheffield",
+        "shortName": "SHU"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.61,
+          "draw": 3.36,
+          "away": 3.85
+        }
+      }
+    },
+    {
+      "id": "match_014",
+      "startTime": "2026-02-12T06:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "che",
+        "name": "Chelsea",
+        "shortName": "CHE"
+      },
+      "awayTeam": {
+        "id": "mun",
+        "name": "Man United",
+        "shortName": "MUN"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.18,
+          "draw": 3.87,
+          "away": 5.56
+        }
+      }
+    },
+    {
+      "id": "match_015",
+      "startTime": "2026-02-12T07:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "liv",
+        "name": "Liverpool",
+        "shortName": "LIV"
+      },
+      "awayTeam": {
+        "id": "ful",
+        "name": "Fulham",
+        "shortName": "FUL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.53,
+          "draw": 3.94,
+          "away": 3.13
+        }
+      }
+    },
+    {
+      "id": "match_016",
+      "startTime": "2026-02-12T07:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "lei",
+        "name": "Leicester",
+        "shortName": "LEI"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.78,
+          "draw": 3.01,
+          "away": 1.66
+        }
+      }
+    },
+    {
+      "id": "match_017",
+      "startTime": "2026-02-12T08:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "awayTeam": {
+        "id": "mci",
+        "name": "Man City",
+        "shortName": "MCI"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.5,
+          "draw": 3.61,
+          "away": 2.98
+        }
+      }
+    },
+    {
+      "id": "match_018",
+      "startTime": "2026-02-12T08:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ars",
+        "name": "Arsenal",
+        "shortName": "ARS"
+      },
+      "awayTeam": {
+        "id": "new",
+        "name": "Newcastle",
+        "shortName": "NEW"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.06,
+          "draw": 4.09,
+          "away": 3.7
+        }
+      }
+    },
+    {
+      "id": "match_019",
+      "startTime": "2026-02-12T09:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "shu",
+        "name": "Sheffield",
+        "shortName": "SHU"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.42,
+          "draw": 3.61,
+          "away": 5.88
+        }
+      }
+    },
+    {
+      "id": "match_020",
+      "startTime": "2026-02-12T09:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ful",
+        "name": "Fulham",
+        "shortName": "FUL"
+      },
+      "awayTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.06,
+          "draw": 3.19,
+          "away": 3.57
+        }
+      }
+    },
+    {
+      "id": "match_021",
+      "startTime": "2026-02-12T10:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "eve",
+        "name": "Everton",
+        "shortName": "EVE"
+      },
+      "awayTeam": {
+        "id": "shu",
+        "name": "Sheffield",
+        "shortName": "SHU"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.06,
+          "draw": 3.6,
+          "away": 3.81
+        }
+      }
+    },
+    {
+      "id": "match_022",
+      "startTime": "2026-02-12T10:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.78,
+          "draw": 4.2,
+          "away": 5.42
+        }
+      }
+    },
+    {
+      "id": "match_023",
+      "startTime": "2026-02-12T11:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "awayTeam": {
+        "id": "ful",
+        "name": "Fulham",
+        "shortName": "FUL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.37,
+          "draw": 4.02,
+          "away": 4.21
+        }
+      }
+    },
+    {
+      "id": "match_024",
+      "startTime": "2026-02-12T11:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "awayTeam": {
+        "id": "wol",
+        "name": "Wolves",
+        "shortName": "WOL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.46,
+          "draw": 3.66,
+          "away": 1.75
+        }
+      }
+    },
+    {
+      "id": "match_025",
+      "startTime": "2026-02-12T12:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "eve",
+        "name": "Everton",
+        "shortName": "EVE"
+      },
+      "awayTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.93,
+          "draw": 3.45,
+          "away": 3.25
+        }
+      }
+    },
+    {
+      "id": "match_026",
+      "startTime": "2026-02-12T12:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "liv",
+        "name": "Liverpool",
+        "shortName": "LIV"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.61,
+          "draw": 2.86,
+          "away": 5.32
+        }
+      }
+    },
+    {
+      "id": "match_027",
+      "startTime": "2026-02-12T13:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "whu",
+        "name": "West Ham",
+        "shortName": "WHU"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.03,
+          "draw": 4.03,
+          "away": 2.23
+        }
+      }
+    },
+    {
+      "id": "match_028",
+      "startTime": "2026-02-12T13:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "awayTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.57,
+          "draw": 3.03,
+          "away": 3.88
+        }
+      }
+    },
+    {
+      "id": "match_029",
+      "startTime": "2026-02-12T14:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bou",
+        "name": "Bournemouth",
+        "shortName": "BOU"
+      },
+      "awayTeam": {
+        "id": "mci",
+        "name": "Man City",
+        "shortName": "MCI"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.68,
+          "draw": 4.28,
+          "away": 3.59
+        }
+      }
+    },
+    {
+      "id": "match_030",
+      "startTime": "2026-02-12T14:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "awayTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.24,
+          "draw": 2.93,
+          "away": 3.78
+        }
+      }
+    },
+    {
+      "id": "match_031",
+      "startTime": "2026-02-12T15:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "awayTeam": {
+        "id": "new",
+        "name": "Newcastle",
+        "shortName": "NEW"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.63,
+          "draw": 4.35,
+          "away": 3.29
+        }
+      }
+    },
+    {
+      "id": "match_032",
+      "startTime": "2026-02-12T15:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "awayTeam": {
+        "id": "lei",
+        "name": "Leicester",
+        "shortName": "LEI"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.99,
+          "draw": 3.97,
+          "away": 5.75
+        }
+      }
+    },
+    {
+      "id": "match_033",
+      "startTime": "2026-02-12T16:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "awayTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.45,
+          "draw": 4.32,
+          "away": 5.35
+        }
+      }
+    },
+    {
+      "id": "match_034",
+      "startTime": "2026-02-12T16:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ars",
+        "name": "Arsenal",
+        "shortName": "ARS"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.0,
+          "draw": 4.3,
+          "away": 4.41
+        }
+      }
+    },
+    {
+      "id": "match_035",
+      "startTime": "2026-02-12T17:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "awayTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.96,
+          "draw": 3.15,
+          "away": 5.36
+        }
+      }
+    },
+    {
+      "id": "match_036",
+      "startTime": "2026-02-12T17:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "eve",
+        "name": "Everton",
+        "shortName": "EVE"
+      },
+      "awayTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 1.7,
+          "draw": 3.45,
+          "away": 2.36
+        }
+      }
+    },
+    {
+      "id": "match_037",
+      "startTime": "2026-02-12T18:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.92,
+          "draw": 3.08,
+          "away": 5.09
+        }
+      }
+    },
+    {
+      "id": "match_038",
+      "startTime": "2026-02-12T18:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "awayTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.25,
+          "draw": 4.36,
+          "away": 1.91
+        }
+      }
+    },
+    {
+      "id": "match_039",
+      "startTime": "2026-02-12T19:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "eve",
+        "name": "Everton",
+        "shortName": "EVE"
+      },
+      "awayTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.43,
+          "draw": 3.95,
+          "away": 4.06
+        }
+      }
+    },
+    {
+      "id": "match_040",
+      "startTime": "2026-02-12T19:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "new",
+        "name": "Newcastle",
+        "shortName": "NEW"
+      },
+      "awayTeam": {
+        "id": "eve",
+        "name": "Everton",
+        "shortName": "EVE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.93,
+          "draw": 3.27,
+          "away": 5.8
+        }
+      }
+    },
+    {
+      "id": "match_041",
+      "startTime": "2026-02-12T20:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "awayTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.35,
+          "draw": 3.78,
+          "away": 4.19
+        }
+      }
+    },
+    {
+      "id": "match_042",
+      "startTime": "2026-02-12T20:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "awayTeam": {
+        "id": "new",
+        "name": "Newcastle",
+        "shortName": "NEW"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.69,
+          "draw": 3.19,
+          "away": 5.35
+        }
+      }
+    },
+    {
+      "id": "match_043",
+      "startTime": "2026-02-12T21:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bur",
+        "name": "Burnley",
+        "shortName": "BUR"
+      },
+      "awayTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.29,
+          "draw": 4.22,
+          "away": 5.37
+        }
+      }
+    },
+    {
+      "id": "match_044",
+      "startTime": "2026-02-12T21:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "mun",
+        "name": "Man United",
+        "shortName": "MUN"
+      },
+      "awayTeam": {
+        "id": "che",
+        "name": "Chelsea",
+        "shortName": "CHE"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.94,
+          "draw": 4.05,
+          "away": 3.97
+        }
+      }
+    },
+    {
+      "id": "match_045",
+      "startTime": "2026-02-12T22:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "ars",
+        "name": "Arsenal",
+        "shortName": "ARS"
+      },
+      "awayTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.4,
+          "draw": 3.21,
+          "away": 3.47
+        }
+      }
+    },
+    {
+      "id": "match_046",
+      "startTime": "2026-02-12T22:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "awayTeam": {
+        "id": "nfo",
+        "name": "Nottingham Forest",
+        "shortName": "NFO"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 2.43,
+          "draw": 3.69,
+          "away": 2.65
+        }
+      }
+    },
+    {
+      "id": "match_047",
+      "startTime": "2026-02-12T23:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "liv",
+        "name": "Liverpool",
+        "shortName": "LIV"
+      },
+      "awayTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.03,
+          "draw": 4.06,
+          "away": 5.4
+        }
+      }
+    },
+    {
+      "id": "match_048",
+      "startTime": "2026-02-12T23:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bre",
+        "name": "Brentford",
+        "shortName": "BRE"
+      },
+      "awayTeam": {
+        "id": "cry",
+        "name": "Crystal Palace",
+        "shortName": "CRY"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 4.99,
+          "draw": 4.18,
+          "away": 5.93
+        }
+      }
+    },
+    {
+      "id": "match_049",
+      "startTime": "2026-02-13T00:00:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "tot",
+        "name": "Tottenham",
+        "shortName": "TOT"
+      },
+      "awayTeam": {
+        "id": "avl",
+        "name": "Aston Villa",
+        "shortName": "AVL"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 5.34,
+          "draw": 3.97,
+          "away": 5.62
+        }
+      }
+    },
+    {
+      "id": "match_050",
+      "startTime": "2026-02-13T00:30:00-05:00",
+      "league": {
+        "id": "premier_league",
+        "name": "Premier League",
+        "country": "England"
+      },
+      "homeTeam": {
+        "id": "bou",
+        "name": "Bournemouth",
+        "shortName": "BOU"
+      },
+      "awayTeam": {
+        "id": "bha",
+        "name": "Brighton",
+        "shortName": "BHA"
+      },
+      "market": {
+        "type": "1X2",
+        "odds": {
+          "home": 3.01,
+          "draw": 3.36,
+          "away": 5.21
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "bets": [
+    {
+      "id": "bet_001",
+      "matchId": "match_042",
+      "placedAt": "2026-02-12T19:25:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.35,
+      "stake": 30,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_002",
+      "matchId": "match_004",
+      "placedAt": "2026-02-12T01:15:00-05:00",
+      "pick": "AWAY",
+      "odd": 1.71,
+      "stake": 40,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_003",
+      "matchId": "match_004",
+      "placedAt": "2026-02-12T00:11:00-05:00",
+      "pick": "HOME",
+      "odd": 5.41,
+      "stake": 30,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_004",
+      "matchId": "match_050",
+      "placedAt": "2026-02-12T23:51:00-05:00",
+      "pick": "HOME",
+      "odd": 3.01,
+      "stake": 15,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_005",
+      "matchId": "match_029",
+      "placedAt": "2026-02-12T12:01:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.59,
+      "stake": 20,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_006",
+      "matchId": "match_045",
+      "placedAt": "2026-02-12T20:54:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.47,
+      "stake": 10,
+      "status": "WON",
+      "return": 34.7
+    },
+    {
+      "id": "bet_007",
+      "matchId": "match_002",
+      "placedAt": "2026-02-11T23:58:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.35,
+      "stake": 50,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_008",
+      "matchId": "match_011",
+      "placedAt": "2026-02-12T04:46:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.46,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_009",
+      "matchId": "match_048",
+      "placedAt": "2026-02-12T22:03:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.93,
+      "stake": 15,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_010",
+      "matchId": "match_015",
+      "placedAt": "2026-02-12T06:03:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.13,
+      "stake": 40,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_011",
+      "matchId": "match_023",
+      "placedAt": "2026-02-12T10:53:00-05:00",
+      "pick": "AWAY",
+      "odd": 4.21,
+      "stake": 25,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_012",
+      "matchId": "match_033",
+      "placedAt": "2026-02-12T15:33:00-05:00",
+      "pick": "HOME",
+      "odd": 3.45,
+      "stake": 10,
+      "status": "WON",
+      "return": 34.5
+    },
+    {
+      "id": "bet_013",
+      "matchId": "match_025",
+      "placedAt": "2026-02-12T11:44:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.45,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_014",
+      "matchId": "match_031",
+      "placedAt": "2026-02-12T13:34:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.35,
+      "stake": 15,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_015",
+      "matchId": "match_002",
+      "placedAt": "2026-02-11T23:22:00-05:00",
+      "pick": "HOME",
+      "odd": 1.63,
+      "stake": 15,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_016",
+      "matchId": "match_032",
+      "placedAt": "2026-02-12T15:13:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.75,
+      "stake": 20,
+      "status": "WON",
+      "return": 115.0
+    },
+    {
+      "id": "bet_017",
+      "matchId": "match_019",
+      "placedAt": "2026-02-12T07:02:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.61,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_018",
+      "matchId": "match_011",
+      "placedAt": "2026-02-12T04:19:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.46,
+      "stake": 25,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_019",
+      "matchId": "match_027",
+      "placedAt": "2026-02-12T11:29:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.03,
+      "stake": 50,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_020",
+      "matchId": "match_032",
+      "placedAt": "2026-02-12T15:14:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.97,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_021",
+      "matchId": "match_003",
+      "placedAt": "2026-02-12T00:15:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.27,
+      "stake": 50,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_022",
+      "matchId": "match_040",
+      "placedAt": "2026-02-12T18:51:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.27,
+      "stake": 20,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_023",
+      "matchId": "match_011",
+      "placedAt": "2026-02-12T03:10:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.46,
+      "stake": 40,
+      "status": "WON",
+      "return": 138.4
+    },
+    {
+      "id": "bet_024",
+      "matchId": "match_042",
+      "placedAt": "2026-02-12T20:02:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.35,
+      "stake": 25,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_025",
+      "matchId": "match_048",
+      "placedAt": "2026-02-12T23:11:00-05:00",
+      "pick": "HOME",
+      "odd": 4.99,
+      "stake": 10,
+      "status": "WON",
+      "return": 49.9
+    },
+    {
+      "id": "bet_026",
+      "matchId": "match_009",
+      "placedAt": "2026-02-12T03:27:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.39,
+      "stake": 40,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_027",
+      "matchId": "match_006",
+      "placedAt": "2026-02-12T01:39:00-05:00",
+      "pick": "HOME",
+      "odd": 4.57,
+      "stake": 10,
+      "status": "WON",
+      "return": 45.7
+    },
+    {
+      "id": "bet_028",
+      "matchId": "match_041",
+      "placedAt": "2026-02-12T19:04:00-05:00",
+      "pick": "AWAY",
+      "odd": 4.19,
+      "stake": 25,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_029",
+      "matchId": "match_035",
+      "placedAt": "2026-02-12T15:49:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.15,
+      "stake": 15,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_030",
+      "matchId": "match_041",
+      "placedAt": "2026-02-12T18:34:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.78,
+      "stake": 50,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_031",
+      "matchId": "match_022",
+      "placedAt": "2026-02-12T10:22:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.2,
+      "stake": 50,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_032",
+      "matchId": "match_038",
+      "placedAt": "2026-02-12T18:01:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.36,
+      "stake": 50,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_033",
+      "matchId": "match_008",
+      "placedAt": "2026-02-12T02:45:00-05:00",
+      "pick": "HOME",
+      "odd": 5.19,
+      "stake": 25,
+      "status": "WON",
+      "return": 129.75
+    },
+    {
+      "id": "bet_034",
+      "matchId": "match_049",
+      "placedAt": "2026-02-12T22:00:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.97,
+      "stake": 25,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_035",
+      "matchId": "match_018",
+      "placedAt": "2026-02-12T08:22:00-05:00",
+      "pick": "HOME",
+      "odd": 2.06,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_036",
+      "matchId": "match_044",
+      "placedAt": "2026-02-12T20:02:00-05:00",
+      "pick": "HOME",
+      "odd": 4.94,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_037",
+      "matchId": "match_018",
+      "placedAt": "2026-02-12T06:45:00-05:00",
+      "pick": "HOME",
+      "odd": 2.06,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_038",
+      "matchId": "match_038",
+      "placedAt": "2026-02-12T17:55:00-05:00",
+      "pick": "DRAW",
+      "odd": 4.36,
+      "stake": 30,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_039",
+      "matchId": "match_010",
+      "placedAt": "2026-02-12T03:53:00-05:00",
+      "pick": "HOME",
+      "odd": 4.39,
+      "stake": 40,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_040",
+      "matchId": "match_043",
+      "placedAt": "2026-02-12T19:09:00-05:00",
+      "pick": "AWAY",
+      "odd": 5.37,
+      "stake": 15,
+      "status": "WON",
+      "return": 80.55
+    },
+    {
+      "id": "bet_041",
+      "matchId": "match_020",
+      "placedAt": "2026-02-12T08:13:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.57,
+      "stake": 10,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_042",
+      "matchId": "match_017",
+      "placedAt": "2026-02-12T07:49:00-05:00",
+      "pick": "HOME",
+      "odd": 1.5,
+      "stake": 40,
+      "status": "LOST",
+      "return": 0
+    },
+    {
+      "id": "bet_043",
+      "matchId": "match_015",
+      "placedAt": "2026-02-12T06:55:00-05:00",
+      "pick": "AWAY",
+      "odd": 3.13,
+      "stake": 40,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_044",
+      "matchId": "match_036",
+      "placedAt": "2026-02-12T16:52:00-05:00",
+      "pick": "AWAY",
+      "odd": 2.36,
+      "stake": 40,
+      "status": "WON",
+      "return": 94.4
+    },
+    {
+      "id": "bet_045",
+      "matchId": "match_001",
+      "placedAt": "2026-02-11T23:11:00-05:00",
+      "pick": "HOME",
+      "odd": 4.67,
+      "stake": 20,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_046",
+      "matchId": "match_024",
+      "placedAt": "2026-02-12T09:33:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.66,
+      "stake": 15,
+      "status": "WON",
+      "return": 54.9
+    },
+    {
+      "id": "bet_047",
+      "matchId": "match_017",
+      "placedAt": "2026-02-12T07:53:00-05:00",
+      "pick": "DRAW",
+      "odd": 3.61,
+      "stake": 20,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_048",
+      "matchId": "match_034",
+      "placedAt": "2026-02-12T16:21:00-05:00",
+      "pick": "HOME",
+      "odd": 5.0,
+      "stake": 50,
+      "status": "PENDING",
+      "return": null
+    },
+    {
+      "id": "bet_049",
+      "matchId": "match_025",
+      "placedAt": "2026-02-12T11:10:00-05:00",
+      "pick": "HOME",
+      "odd": 3.93,
+      "stake": 15,
+      "status": "WON",
+      "return": 58.95
+    },
+    {
+      "id": "bet_050",
+      "matchId": "match_033",
+      "placedAt": "2026-02-12T14:06:00-05:00",
+      "pick": "HOME",
+      "odd": 3.45,
+      "stake": 15,
+      "status": "WON",
+      "return": 51.75
+    }
+  ]
+}
