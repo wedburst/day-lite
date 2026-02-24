@@ -9,8 +9,8 @@ export default function Header() {
   const pathname = usePathname();
   const { data: session, status } = useSession();
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/profile", label: "Profile" },
+    { href: "/", label: "Inicio" },
+    { href: "/profile", label: "Perfil" },
   ];
   return (
     <header className="sticky top-0 z-20 border-b border-black/10 bg-zinc-50/80 backdrop-blur dark:border-white/15 dark:bg-black/60">
