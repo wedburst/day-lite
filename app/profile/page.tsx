@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 
@@ -50,20 +50,15 @@ function statusClasses(status: BetStatus | string) {
 export default function ProfilePage() {
   const { data: session, status } = useSession();
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
-  const [bets, setBets] = useState<Bet[]>([]);
-  const [matches, setMatches] = useState<Match[]>([]);
 
   useEffect(() => {
-    if (status === 'loading') return;
-    if (!session) {
+    if (status === 'unauthenticated') {
       router.replace('/signin');
-      return;
     }
-    setTimeout(() => setLoading(false), 1000);
-    setBets((bestData as unknown as { bets: Bet[] }).bets ?? []);
-    setMatches((matchesData as unknown as { matches: Match[] }).matches ?? []);
-  }, [session, status, router]);
+  }, [status, router]);
+
+  const bets = (bestData as unknown as { bets: Bet[] }).bets ?? [];
+  const matches = (matchesData as unknown as { matches: Match[] }).matches ?? [];
 
   const matchById = new Map(matches.map((m: Match) => [m.id, m]));
   const sorted = [...bets].sort((a, b) => new Date(b.placedAt).getTime() - new Date(a.placedAt).getTime());
@@ -76,6 +71,10 @@ export default function ProfilePage() {
     );
   }
 
+  if (!session) {
+    return null;
+  }
+
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-black dark:text-zinc-50">
       <div className="mx-auto w-full max-w-4xl px-4 py-10 sm:px-6">
@@ -86,45 +85,7 @@ export default function ProfilePage() {
           </p>
         </header>
         <main className="mt-6">
-          {loading ? (
-            <div className="flex flex-col gap-6">
-              {[1, 2, 3].map((s) => (
-                <section
-                  key={s}
-                  className="rounded-2xl border border-black/10 bg-white p-4 dark:border-white/15 dark:bg-black animate-pulse"
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="h-4 w-24 rounded bg-zinc-200 dark:bg-zinc-700" />
-                    <div className="h-3 w-12 rounded bg-zinc-100 dark:bg-zinc-800" />
-                  </div>
-                  <div className="mt-4 flex flex-col gap-3">
-                    {[1, 2].map((i) => (
-                      <article
-                        key={i}
-                        className="rounded-xl border border-black/10 p-4 dark:border-white/15 bg-zinc-50 dark:bg-zinc-900"
-                      >
-                        <div className="flex flex-col gap-1">
-                          <div className="h-3 w-20 rounded bg-zinc-200 dark:bg-zinc-700 mb-1" />
-                          <div className="h-5 w-40 rounded bg-zinc-200 dark:bg-zinc-700" />
-                        </div>
-                        <div className="mt-3">
-                          <div className="h-3 w-16 rounded bg-zinc-100 dark:bg-zinc-800 mb-2" />
-                          <div className="grid grid-cols-3 gap-2">
-                            {[1, 2, 3].map((j) => (
-                              <div
-                                key={j}
-                                className="h-10 rounded-xl border border-black/10 bg-zinc-100 dark:border-white/15 dark:bg-zinc-800"
-                              />
-                            ))}
-                          </div>
-                        </div>
-                      </article>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
-          ) : sorted.length === 0 ? (
+          {sorted.length === 0 ? (
             <div className="rounded-2xl border border-black/10 bg-white p-6 text-sm text-zinc-600 dark:border-white/15 dark:bg-black dark:text-zinc-400">
               Aún no tienes apuestas.
             </div>
